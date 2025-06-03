@@ -28,7 +28,7 @@ const plans = [
 
 export default function Plans() {
     return (
-        <section className='py-20 bg-[#D3CDC6] lg:h-[120vh] relative'>
+        <section className='py-20 bg-[#D3CDC6] lg:h-[100vh] relative'>
             <div className='maxW flex flex-col lg:flex-row'>
 
                 <article className='lg:pl-30 lg:w-[60%]'>
@@ -62,7 +62,7 @@ export default function Plans() {
                     </div>
                 </article>
 
-                <img className='hidden absolute bottom-0 lg:block lg:right-40 lg:w-[25%]' src="/plans-1.png" alt="Imagem dos planos" />
+                <img className='hidden absolute bottom-0 lg:block lg:right-40 lg:w-[20%]' src="/plans-1.png" alt="Imagem dos planos" />
             </div>
         </section>
     );

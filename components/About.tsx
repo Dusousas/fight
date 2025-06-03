@@ -30,7 +30,7 @@ export default function About() {
                                     <h1 className='flex gap-2 uppercase font-Rubik tracking-widest'>
                                         <FaCheckSquare className='text-2xl text-OrangeP' />{service.title}
                                     </h1>
-                                    <p className='mt-4'>{service.description}</p>
+                                    <p className='mt-4 text-sm'>{service.description}</p>
                                 </div>
                             ))}
                         </div>
