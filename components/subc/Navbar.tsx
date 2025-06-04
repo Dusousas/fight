@@ -21,7 +21,7 @@ export default function Navbar() {
                     <a href="#home"><li>Início</li></a>
                     <a href="#about"><li>Sobre</li></a>
                     <a href="#services"><li>Seviços</li></a>
-                    <a href="#produtos"><li>Produtos</li></a>
+                    <a href="#contato"><li>Contato</li></a>
                 </ul>
             </nav>
 
@@ -30,22 +30,22 @@ export default function Navbar() {
                 {/* Botão do menu */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="text-3xl text-BrowP focus:outline-none relative z-50"
+                    className="text-3xl text-white focus:outline-none relative z-50"
                 >
                     {isOpen ? <FiX /> : <FiMenu />}
                 </button>
 
                 {/* Menu Mobile */}
                 <nav
-                    className={`fixed top-0 right-0 h-screen w-full bg-white shadow-md z-40 flex flex-col items-center justify-center transition-transform duration-300 ${
+                    className={`fixed top-0 right-0 h-screen w-full bg-GrayP shadow-md z-40 flex flex-col items-center justify-center transition-transform duration-300 ${
                         isOpen ? "translate-x-0" : "translate-x-full"
                     }`}
                 >
-                    <ul className="flex flex-col items-center gap-8 text-lg uppercase  text-BrowP">
+                    <ul className="flex flex-col items-center gap-8 text-lg uppercase text-white">
                         <a href="#home" onClick={() => setIsOpen(false)}><li>Início</li></a>
                         <a href="#about" onClick={() => setIsOpen(false)}><li>Sobre</li></a>
                         <a href="#services" onClick={() => setIsOpen(false)}><li>seviços</li></a>
-                        <a href="#produtos" onClick={() => setIsOpen(false)}><li>Produtos</li></a>
+                        <a href="#contato" onClick={() => setIsOpen(false)}><li>Contato</li></a>
                     </ul>
                 </nav>
             </div>
