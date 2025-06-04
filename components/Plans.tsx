@@ -32,7 +32,7 @@ export default function Plans() {
             <div className='maxW flex flex-col lg:flex-row'>
 
                 <article className='lg:pl-30 lg:w-[60%]'>
-                    <p className='uppercase tracking-widest font-Rubik text-OrangeP'>Nossos pacotes</p>
+                    <p className='uppercase tracking-widest text-OrangeP'>Nossos pacotes</p>
                     <h1 className='text-4xl font-Mont text-GrayP uppercase mt-4'>
                         Escolha o <span className='text-OrangeP'>ideal</span> para você.
                     </h1>
@@ -51,14 +51,14 @@ export default function Plans() {
                                 </div>
 
                                 <div className='flex justify-center mt-6'>
-                                    <a className='text-white bg-OrangeP px-8 py-3 uppercase font-Rubik font-light text-sm tracking-wide' href="#">Quero começar</a>
+                                    <a className='text-white bg-OrangeP px-8 py-3 uppercase font-light text-sm tracking-wide' href="#">Quero começar</a>
                                 </div>
                             </div>
                         ))}
                     </article>
                     <p className='mt-10 border-l-3 border-OrangeP pl-6'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore perspiciatis, ipsum itaque vitae praesentium eos aliquid? Quo facilis non illo!</p>
                     <div className='flex mt-6'>
-                        <a className='text-white bg-OrangeP px-8 py-3 uppercase font-Rubik font-light text-sm tracking-wide' href="#">Ver todos os planos</a>
+                        <a className='text-white bg-OrangeP px-8 py-3 uppercase font-light text-sm tracking-wide' href="#">Ver todos os planos</a>
                     </div>
                 </article>
 

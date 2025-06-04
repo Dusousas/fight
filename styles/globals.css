@@ -10,8 +10,10 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Montserrat, sans-serif;
-  ;
+}
+
+p, a{
+  font-family: "Rubik", sans-serif;
 }
 
 .bgMain {
@@ -21,6 +23,15 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.bgDepo {
+  background-image: url('/depo-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 
 .maxW {
   max-width: 1440px;

@@ -12,7 +12,7 @@ export default function Services() {
     return (
         <section id='services' className='pb-20'>
             <div className='maxW'>
-                <p className='uppercase tracking-widest font-Rubik text-OrangeP text-center'>Nossos serviços</p>
+                <p className='uppercase tracking-widest text-OrangeP text-center'>Nossos serviços</p>
                 <h1 className='text-4xl font-Mont text-GrayP uppercase mt-4 text-center'>Disciplina forja <span className='text-OrangeP'>campeões.</span></h1>
 
                 <div className="flex flex-col flex-wrap justify-center gap-4 mt-14 lg:flex-row">

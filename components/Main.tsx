@@ -9,10 +9,10 @@ export default function Main() {
 
                 <div className='maxW relative z-10 flex items-center h-full'>
                     <article className='z-10'>
-                        <p className='uppercase tracking-widest font-Rubik text-OrangeP text-center lg:text-left'>Bem vindo a Sualogo</p>
+                        <p className='uppercase tracking-widest text-OrangeP text-center lg:text-left'>Bem vindo a Sualogo</p>
                         <h1 className='font-Mont text-white uppercase italic mt-4 text-4xl text-center lg:text-left lg:text-7xl'>Academia de <span>artes marciais</span></h1>
                         <div className='flex justify-center mt-6 lg:justify-start'>
-                            <a className='text-white bg-OrangeP px-8 py-3 uppercase font-Rubik font-light text-sm tracking-wide' href="">Saiba mais</a>
+                            <a className='text-white bg-OrangeP px-8 py-3 uppercase font-light text-sm tracking-wide' href="">Saiba mais</a>
                         </div>
                     </article>
 
