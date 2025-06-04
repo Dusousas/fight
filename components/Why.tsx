@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaPlay } from 'react-icons/fa';
 import { GiBoxingGlove } from 'react-icons/gi';
 
 export default function Why() {
@@ -6,8 +7,16 @@ export default function Why() {
         <>
             <section className='py-20'>
                 <div className='maxW flex flex-col gap-20 lg:flex-row'>
-                    <article className='lg:w-1/2 flex justify-center lg:justify-end '>
-                        <img className='h-[600px] w-[80%] object-cover border-l-3 border-OrangeP' src="/why-1.jpg" alt="" />
+                    <article className='lg:w-1/2 flex justify-center lg:justify-end relative'>
+                        <img
+                            className='h-[600px] w-[80%] object-cover border-l-3 border-OrangeP'
+                            src="/why-1.jpg"
+                            alt=""
+                        />
+
+                        <div className='absolute top-1/2 left-[50%] lg:left-[58%] -translate-x-1/2 -translate-y-1/2'>
+                            <FaPlay className='text-6xl cursor-pointer text-white bg-GrayP border-l-3 border-OrangeP p-3 hover:bg-OrangeP hover:text-white hover:border-GrayP' />
+                        </div>
                     </article>
 
                     <article className='lg:w-1/2'>
